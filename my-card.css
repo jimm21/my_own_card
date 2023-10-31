@@ -1,0 +1,104 @@
+body{
+    background-image: linear-gradient(0deg, Indigo, IndianRed);
+    /* background-image: url(https://media2.giphy.com/media/ITRemFlr5tS39AzQUL/giphy.gif?cid=ecf05e473sktdliehbucfvr4abm583gryi8lcdlpx80syhsc&ep=v1_gifs_search&rid=giphy.gif&ct=g); */
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 12px;
+}
+h3{
+    font-size: 8px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fondo{
+    width: 100%;
+    position: relative;
+}
+.fondo img:nth-child(1){
+    box-sizing: border-box;
+    width: 100%;
+    height: 110px;
+}
+.profile{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,+50%);
+}
+.profile #me{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid Teal;
+}
+.profile #nation{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+
+.my-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.my-info *{
+    margin: 0;
+
+}
+.especialidades{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.especialidades p{
+    padding: 0px 10px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+.fa {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.buttons{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.buttons *{
+    background-color: Crimson;
+    color: beige;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 125px;
+    padding: 10px;
+    font-size: 10px;
+}
